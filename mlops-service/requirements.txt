@@ -1,0 +1,14 @@
+# Flask MLOps Service Dependencies
+# Core Flask dependencies
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# Prometheus for metrics monitoring
+prometheus-client==0.19.0
+
+# Database connectivity - using requests for HTTP-based database access
+# This avoids psycopg2 compilation issues on newer Python versions
+
+# Additional utilities
+python-dotenv==1.0.0
+requests==2.31.0

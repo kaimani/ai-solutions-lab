@@ -26,4 +26,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 devmap.md
-lab-materials/
+lab-materials/.DS_Store
