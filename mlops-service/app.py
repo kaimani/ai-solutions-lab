@@ -335,4 +335,4 @@ if __name__ == '__main__':
     # Run the Flask app
     port = int(os.getenv('SERVICE_PORT', 5001))
     logger.info(f"Starting MLOps service on port {port}")
-    app.run(host='0.0.0.0', port=port, debug=os.getenv('FLASK_DEBUG', 'True') == 'True')
+    app.run(host='0.0.0.0', port=port, debug=os.getenv('FLASK_DEBUG', 'True') == 'True')# CI/CD Pipeline Test
