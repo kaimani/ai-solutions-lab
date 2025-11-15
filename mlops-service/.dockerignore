@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.local
+
+# Test files
+test_*.py
+tests/
+*.pytest_cache
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Documentation
+README.md
+*.md

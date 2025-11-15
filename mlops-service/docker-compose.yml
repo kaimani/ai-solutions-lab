@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  mlops-service:
+    build: .
+    container_name: mlops-container
+    ports:
+      - "5001:5001"
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - FLASK_ENV=development
+      - FLASK_DEBUG=True
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
